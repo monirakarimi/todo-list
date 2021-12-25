@@ -149,5 +149,5 @@ function clearTasksFromLocalStorage(){
 
 //Done Tasks
 function completedTasks(e) {
-  e.target.parentElement.parentElement.className = "text-decoration-line-through"
+  e.target.classList.toggle('text-decoration-line-through',true);
 }
